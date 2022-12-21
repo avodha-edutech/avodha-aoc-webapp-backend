@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "avodha-projects",
+  "private_key_id": "8b72ec707671b7891927978f7a4446b107860479",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCp42hym+cNdzPd\nM3JBz+sewFWgnHq4w2kcv60o4IZ75Xi6JXLaNhmlCmIC1xN5+UvJdM9ja8DycrhV\nc0JWTdXNGqeYHsyDkbnNeU15LFYDORNc6y+pZD97OgBYWvefqhzEUY95pmtrH9uV\n4ItxoP9UyyvqAdwXSaA4Iyeg+EFfXOWPQImcIlrxemk2guKMENV9oBAgei264BOI\n+m6XDlH3Q7TE9IfsTQeAJvLuNRjPtBFMTFs/xymnW86xgv9o5nVf/F1MHqh1WBdT\nQpmFrK+5oQ4f3bURQ07RoY+jPbUkicJM9kX3HKc8RGFx16YwFg3ZK0KVOtmzr8IH\nSkRS7s//AgMBAAECgf9SpG9d+/CL8bUE1M7AAdw8TIb0iW6g+xjRjgYlmCRcIN5V\natEezO41OLWoI4CJKppeEFKOLMuvi5ZkYWj01wpdiLv+VR9J0Ga0WnAAPdVVVaGv\nTYYEFBV4IJzXKyUF/f7vXyQF51VIx0ekB3UjSOn9ZrYYMK1GYop9CL8LKKfXmRZ3\nflN6LLkgK5cJBebXXLzyXYqncyU/oTOJC81CM48HwLSjgZ0oRHmMC7BmE9FxUtAT\njA3LSqLQ21NMd8crAZsGwCWbUSIrPJMawMqsX5OtoHy8cpRk7k49Wao1MlcMMpYe\nfDn71AmTAd5d8UnTmyxvB7irZbVG6sURHo8fEoECgYEA3F6EFTFj99yrNFtIVsGz\nwD4YW2XymJgRclAJbw30Zr2NY0IeqI1gowiXmLh4CCcvv3PuQyKeuwc8eOJ0j9qm\nd05ngOs2DxbVmueMZCLBr5AWn5kI/Cv30PjMAscrphTXmW4lbWDmyy7KdMWm2zSb\n4f56fNERGhTiN+N0Sd/b0/ECgYEAxVtlTxBcZin/Ek9Ha7oPjttpX9uTO3GFno2s\nvfMq4HiGEsMVw7GrF9Q6lZid69IGQuhY5JGfDRpQG2HYa17dX9oICJhH1M6sibK2\nbANVG3cZtvZh6iVXe7cBmdP+17279Pbs6kLGQvfeSlPGDuIRDrgCrkOCDSwLY0CR\nrTWdEu8CgYA795Rl1/zmNCx6oOR8h1WM2Njz9jggAjGtM859ZAS/+JEDE7kYEPDd\nLLdkHb68KT27EaciqcccCgoQsz8Y7l0iVjmgQWGClaom7x+rGDIwvjsJzzE8vhI/\n0ZRipSRhm4ZYADs7GoVzgRYi1K5lNFm/E+rtEE9hE5HDt6ererltYQKBgQCKr61D\noDWuPXjXfwqrczaXpywnhn+yWBYT028+lHDfCRL+gET9Hg8jUapRkcv3+cEYp3pA\nNOzWIlWEyH9zBFkAkJDwqUJhE1M/+Gwk/zqBcHKLlhw8lD0j3PitBsKhDN3WSOc3\nv/DfApwdEz2tG8Ps2fZYS2xKoVbnSmqUk4Zr1QKBgQDW37okmQoYtAKbrMZfipfH\naqKkC36kQ1GTrtMfu84YUC/9vIw5vcFiGDk9PTIE8iYbi3lXJ3h+i/++anN2hduN\ndD/vnt+xcXf8Q60/38DDr7IXP69K7qi0Y6MOMYdsMV8VAjSC/E0Pjwgri/MgVJHj\nm8MnURXfRPuQm4Ul8c5o6Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "avodha-aoc-service-account@avodha-projects.iam.gserviceaccount.com",
+  "client_id": "104452246277812683486",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/avodha-aoc-service-account%40avodha-projects.iam.gserviceaccount.com"
+}

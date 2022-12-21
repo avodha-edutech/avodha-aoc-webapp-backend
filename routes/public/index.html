@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="https://jap.avodha.org/images/icon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik Storm">
+        <title>Avodha</title>
+    </head>
+    <style>
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+        }
+
+        .main
+        {
+            margin-top: 200px;
+            font-family: Rubik Storm;
+            font-family: 15px;
+            color: #fff;
+            animation: blur 1.5s 1 linear;
+        }
+
+        @keyframes blur
+        {
+            from
+            {
+                opacity: 0%;
+                transform: scale(0);
+            }
+
+            to
+            {
+                opacity: 100%;
+                transform: scale(1);
+            }
+        }
+
+        @media (min-width: 800px)
+        {
+            .main
+            {
+                font-size: 25px;
+            }
+        }
+    </style>
+    <body>
+        <div class="main">
+            <h1>Oops! You are locked!</h1>
+        </div>
+    </body>
+</html>

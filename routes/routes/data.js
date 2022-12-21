@@ -42,6 +42,7 @@ routes.post('/', async (req, res) => {
             var aocCourse = mainData[i][3];
             var aocSeat = mainData[i][4];
             var aocDistrict = mainData[i][5];
+            var aocBatch = mainData[i][6];
 
             var exportData = {
                 aocCode: aocCode,
@@ -49,7 +50,8 @@ routes.post('/', async (req, res) => {
                 aocLanguage: aocLanguage,
                 aocCourse: aocCourse,
                 aocSeat: aocSeat,
-                aocDistrict: aocDistrict
+                aocDistrict: aocDistrict,
+                aocBatch: aocBatch
             }
 
             exportSubArray.push(exportData);

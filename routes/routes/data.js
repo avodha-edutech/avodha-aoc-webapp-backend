@@ -22,7 +22,8 @@ const authentication = async () => {
 
 routes.post('/', async (req, res) => {
     var district = req.body.district;
-    if(district != null)
+    var courseName = req.body.course;
+    if(district != null && courseName != null)
     {
         const sheets = await authentication();
         const rawData = await sheets.spreadsheets.values.get({
@@ -38,19 +39,17 @@ routes.post('/', async (req, res) => {
         {
             var aocCode = mainData[i][0];
             var aocAddress = mainData[i][1];
-            var aocLanguage = mainData[i][2];
+            var aocBatchDate = mainData[i][2];
             var aocCourse = mainData[i][3];
             var aocSeat = mainData[i][4];
-            var aocDistrict = mainData[i][5];
             var aocBatch = mainData[i][6];
 
             var exportData = {
                 aocCode: aocCode,
                 aocAddress: aocAddress,
-                aocLanguage: aocLanguage,
+                aocBatchDate: aocBatchDate,
                 aocCourse: aocCourse,
                 aocSeat: aocSeat,
-                aocDistrict: aocDistrict,
                 aocBatch: aocBatch
             }
 
@@ -58,8 +57,8 @@ routes.post('/', async (req, res) => {
         }
 
         var exportArray = exportSubArray.filter((value,index)=> {
-            return value.aocDistrict === district;
-        })
+            return value.aocDistrict === district || value.aocCourse === courseName;
+        });
 
         res.status(200).json(exportArray);
 
@@ -67,7 +66,7 @@ routes.post('/', async (req, res) => {
     {
         var errorResult = {
             status: 'error',
-            message: 'district cannot be empty'
+            message: 'fields cannot be empty'
         }
 
         res.json(errorResult).status(200);

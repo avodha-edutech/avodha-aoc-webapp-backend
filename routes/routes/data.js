@@ -42,6 +42,7 @@ routes.post('/', async (req, res) => {
             var aocBatchDate = mainData[i][2];
             var aocCourse = mainData[i][3];
             var aocSeat = mainData[i][4];
+            var aocDistrict = mainData[i][5];
             var aocBatch = mainData[i][6];
 
             var exportData = {
@@ -50,6 +51,7 @@ routes.post('/', async (req, res) => {
                 aocBatchDate: aocBatchDate,
                 aocCourse: aocCourse,
                 aocSeat: aocSeat,
+                aocDistrict: aocDistrict,
                 aocBatch: aocBatch
             }
 
@@ -57,7 +59,7 @@ routes.post('/', async (req, res) => {
         }
 
         var exportArray = exportSubArray.filter((value,index)=> {
-            return value.aocDistrict === district || value.aocCourse === courseName;
+            return value.aocDistrict === district && value.aocCourse === courseName;
         });
 
         res.status(200).json(exportArray);
